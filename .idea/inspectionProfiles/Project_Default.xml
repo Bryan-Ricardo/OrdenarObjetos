@@ -1,0 +1,57 @@
+<component name="InspectionProjectProfileManager">
+  <profile version="1.0">
+    <option name="myName" value="Project Default" />
+    <inspection_tool class="AssertBetweenInconvertibleTypes" enabled="true" level="TYPO" enabled_by_default="true" />
+    <inspection_tool class="AssertEqualsCalledOnArray" enabled="true" level="TYPO" enabled_by_default="true" />
+    <inspection_tool class="AssertEqualsMayBeAssertSame" enabled="true" level="TYPO" enabled_by_default="true" />
+    <inspection_tool class="BeforeClassOrAfterClassIsPublicStaticVoidNoArg" enabled="true" level="TYPO" enabled_by_default="true" />
+    <inspection_tool class="BeforeOrAfterIsPublicVoidNoArg" enabled="true" level="TYPO" enabled_by_default="true" />
+    <inspection_tool class="ExpectedExceptionNeverThrown" enabled="true" level="TYPO" enabled_by_default="true" />
+    <inspection_tool class="HardCodedStringLiteral" enabled="true" level="TYPO" enabled_by_default="true">
+      <option name="ignoreForAssertStatements" value="true" />
+      <option name="ignoreForExceptionConstructors" value="true" />
+      <option name="ignoreForSpecifiedExceptionConstructors" value="" />
+      <option name="ignoreForJUnitAsserts" value="true" />
+      <option name="ignoreForClassReferences" value="true" />
+      <option name="ignoreForPropertyKeyReferences" value="true" />
+      <option name="ignoreForNonAlpha" value="true" />
+      <option name="ignoreAssignedToConstants" value="false" />
+      <option name="ignoreToString" value="false" />
+      <option name="nonNlsCommentPattern" value="NON-NLS" />
+    </inspection_tool>
+    <inspection_tool class="IgnoredJUnitTest" enabled="true" level="TYPO" enabled_by_default="true" />
+    <inspection_tool class="JUnit3StyleTestMethodInJUnit4Class" enabled="true" level="TYPO" enabled_by_default="true" />
+    <inspection_tool class="JUnit4AnnotatedMethodInJUnit3TestCase" enabled="true" level="TYPO" enabled_by_default="true" />
+    <inspection_tool class="JUnit5AssertionsConverter" enabled="true" level="TYPO" enabled_by_default="true" />
+    <inspection_tool class="JUnit5Converter" enabled="true" level="TYPO" enabled_by_default="true" />
+    <inspection_tool class="JUnit5MalformedNestedClass" enabled="true" level="TYPO" enabled_by_default="true" />
+    <inspection_tool class="JUnit5MalformedParameterized" enabled="true" level="TYPO" enabled_by_default="true" />
+    <inspection_tool class="JUnit5MalformedRepeated" enabled="true" level="TYPO" enabled_by_default="true" />
+    <inspection_tool class="JUnitDatapoint" enabled="true" level="TYPO" enabled_by_default="true" />
+    <inspection_tool class="JUnitTestNG" enabled="true" level="TYPO" enabled_by_default="true" />
+    <inspection_tool class="Junit4Converter" enabled="true" level="TYPO" enabled_by_default="true" />
+    <inspection_tool class="KotlinTestJUnit" enabled="true" level="TYPO" enabled_by_default="true" />
+    <inspection_tool class="MalformedSetUpTearDown" enabled="true" level="TYPO" enabled_by_default="true" />
+    <inspection_tool class="MigrateAssertToMatcherAssert" enabled="true" level="TYPO" enabled_by_default="true" />
+    <inspection_tool class="MisorderedAssertEqualsArguments" enabled="true" level="TYPO" enabled_by_default="true" />
+    <inspection_tool class="MultipleExceptionsDeclaredOnTestMethod" enabled="true" level="TYPO" enabled_by_default="true" />
+    <inspection_tool class="ParameterizedParametersStaticCollection" enabled="true" level="TYPO" enabled_by_default="true" />
+    <inspection_tool class="StaticSuite" enabled="true" level="TYPO" enabled_by_default="true" />
+    <inspection_tool class="SuperTearDownInFinally" enabled="true" level="TYPO" enabled_by_default="true" />
+    <inspection_tool class="TestCaseInProductCode" enabled="true" level="TYPO" enabled_by_default="true" />
+    <inspection_tool class="TestCaseWithConstructor" enabled="true" level="TYPO" enabled_by_default="true" />
+    <inspection_tool class="TestCaseWithNoTestMethods" enabled="true" level="TYPO" enabled_by_default="true">
+      <option name="ignoreSupers" value="true" />
+    </inspection_tool>
+    <inspection_tool class="TestFailedLine" enabled="true" level="TYPO" enabled_by_default="true" />
+    <inspection_tool class="TestMethodInProductCode" enabled="true" level="TYPO" enabled_by_default="true" />
+    <inspection_tool class="TestMethodIsPublicVoidNoArg" enabled="true" level="TYPO" enabled_by_default="true" />
+    <inspection_tool class="TestMethodWithoutAssertion" enabled="true" level="TYPO" enabled_by_default="true">
+      <option name="assertKeywordIsAssertion" value="true" />
+      <option name="ignoreIfExceptionThrown" value="true" />
+    </inspection_tool>
+    <inspection_tool class="TestOnlyProblems" enabled="true" level="TYPO" enabled_by_default="true" />
+    <inspection_tool class="UnconstructableTestCase" enabled="true" level="TYPO" enabled_by_default="true" />
+    <inspection_tool class="UseOfObsoleteAssert" enabled="true" level="TYPO" enabled_by_default="true" />
+  </profile>
+</component>
