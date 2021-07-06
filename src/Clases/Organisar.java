@@ -33,6 +33,7 @@ public class Organisar <T>{
                 this.ordenAlfabeticoZA();
             }
         }
+        Recibir<T> recibir = new Recibir<T>((T[][]) this.matriz);
     }
 
     //EL constructor Organisar para Personas
@@ -181,15 +182,17 @@ public class Organisar <T>{
             this.matriz[0][i] = nombre;
             this.matriz[1][i] = String.valueOf(edad);
         }
-        //Mostar los datos acomodados
+        /*
+        Mostar los datos acomodados
+
         for (int i = 0; i < this.cantidad; i++) {
             System.out.println("ALumno: "+ (i+1) + ", Nombre: " + this.matriz[0][i] + ", Edad: " + this.matriz[1][i]);
         }
-
+        */
     }
     private void ordenAlfabeticoZA(){
         {
-            System.out.println("ordenAlfabeticoZA");
+            //System.out.println("ordenAlfabeticoZA");
             //Algoritmo para acomodar de Z-A
             for (int i = 0; i < this.cantidad; i++) {
                 for (int j = (i+1); j < this.cantidad; j++) {
@@ -242,10 +245,12 @@ public class Organisar <T>{
                 this.matriz[0][i] = nombre;
                 this.matriz[1][i] = String.valueOf(edad);
             }
+            /*
             //Mostar los datos acomodados
             for (int i = 0; i < this.cantidad; i++) {
                 System.out.println("ALumno: "+ (i+1) + ", Nombre: " + this.matriz[0][i] + ", Edad: " + this.matriz[1][i]);
             }
+            */
         }
     }
 }
